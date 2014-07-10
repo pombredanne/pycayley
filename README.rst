@@ -52,7 +52,7 @@ Download and Install
 
 .. __: https://github.com/canerbasaran/pycayley/raw/master/pycayley.py
 
-Install with ``sudo pip setup.py install`` or download `pycayley.py`__ (unstable) into your project directory. There is only one dependency Requests_ other than the Python standard library. PyCayley runs with **Python 2.5+ and 3.x**.
+Install with ``sudo python setup.py install`` or download `pycayley.py`__ (unstable) into your project directory. There is only one dependency Requests_ other than the Python standard library. PyCayley runs with **Python 2.5+ and 3.x**.
 
 
 License
