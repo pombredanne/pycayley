@@ -12,8 +12,8 @@ pycayley is a simple Python_ client for Cayley_ Graph Database. It is distribute
 Homepage and documentation: http://github.com/canerbasaran/pycayley
 
 
-Example: "Hello World" in a bottle
-----------------------------------
+Example: Query all vertices in the graph, limit to the first 5 vertices found
+-----------------------------------------------------------------------------
 ./cayley http --dbpath=30kmovies.nt
 
 .. code-block:: python
