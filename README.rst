@@ -4,19 +4,8 @@
 .. _Methods: https://github.com/google/cayley/blob/master/docs/HTTP.md
 
 ============================
-PyCayley: Simple Python Cayley Graph Database Client
+PyCayley: Simple Python Cayley Client
 ============================
-.. image:: https://pypip.in/download/pycayley/badge.png
-    :target: https://pypi.python.org/pypi/pycayley/
-    :alt: Downloads
-
-.. image:: https://pypip.in/version/pycayley/badge.png
-    :target: https://pypi.python.org/pypi/pycayley/
-    :alt: Latest Version
-
-.. image:: https://pypip.in/license/pycayley/badge.png
-    :target: https://pypi.python.org/pypi/pycayley/
-    :alt: License
 PyCayley is a simple Python_ client for Cayley_ Graph Database. It is distributed as a single file module and has only one dependency Requests_ other than the `Python Standard Library <http://docs.python.org/library/>`_.
 
 Homepage and documentation: http://github.com/canerbasaran/pycayley
