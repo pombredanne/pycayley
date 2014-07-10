@@ -18,25 +18,35 @@ Example
 -------
 ./cayley http --dbpath=30kmovies.nt
 
-**Query all vertices in the graph, limit to the first 5 vertices found**
+**Get the list of actors in the film**
 
 .. code-block:: python
 
   from pycayley import Graph
 
   c = Graph("http://localhost:64210", "v1")
-  c.qg("graph.Vertex().GetLimit(5)")
+  c.qg('g.V().Has("name","Casablanca").Out("/film/film/starring").Out("/film/performance/actor").Out("name").All()')
 
 
 Run this script or paste it into a Python console, then response JSON results:
 
 .. code-block:: json
 
-  {'result': [{'id': ':100000'},
-  {'id': '/film/performance/actor'},
-  {'id': ':/en/larry_fine_1902'},
-  {'id': ':100001'},
-  {'id': ':/en/samuel_howard'}]}
+  {u'result': [{u'id': u'Humphrey Bogart'},
+  {u'id': u'Ingrid Bergman'},
+  {u'id': u'Paul Henreid'},
+  {u'id': u'Claude Rains'},
+  {u'id': u'Conrad Veidt'},
+  {u'id': u'Sydney Greenstreet'},
+  {u'id': u'Peter Lorre'},
+  {u'id': u'S.Z. Sakall'},
+  {u'id': u'Madeleine LeBeau'},
+  {u'id': u'Dooley Wilson'},
+  {u'id': u'Joy Page'},
+  {u'id': u'John Qualen'},
+  {u'id': u'Leonid Kinskey'},
+  {u'id': u'Helmut Dantine'},
+  {u'id': u'Lou Marcelle'}]}
 
 
 Methods_
