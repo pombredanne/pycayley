@@ -18,9 +18,9 @@ Example: Query all vertices in the graph, limit to the first 5 vertices found
 
 .. code-block:: python
 
-  from pycayley import CayleyDatabase
+  from pycayley import Graph
 
-  c = CayleyDatabase("http://localhost:64210", "v1")
+  c = Graph("http://localhost:64210", "v1")
   c.qg("graph.Vertex().GetLimit(5)")
 
 

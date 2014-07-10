@@ -20,8 +20,8 @@ def request(url, data):
     return requests.post(url, data=data).json()
 
 
-class CayleyDatabase():
-    def __init__(self, url, version):
+class Graph():
+    def __init__(self, url="http://localhost:64210", version="v1"):
         self.url = "%s/api/%s/" % (url, version)
 
     def qg(self, query):
