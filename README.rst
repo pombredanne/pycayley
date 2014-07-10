@@ -48,13 +48,13 @@ Run this script or paste it into a Python console, then response JSON results:
 Methods_
 -------
 
-query/gremlin    -> qg
-query/mql        -> qm
-shape/gremlin    -> sg
-shape/mql        -> sm
-write            -> w
-write/file/nquad -> wfn
-delete           -> d
+- query/gremlin    -> qg
+- query/mql        -> qm
+- shape/gremlin    -> sg
+- shape/mql        -> sm
+- write            -> w
+- write/file/nquad -> wfn
+- delete           -> d
 
 
 Download and Install
