@@ -19,6 +19,7 @@ Example
 ./cayley http --dbpath=30kmovies.nt
 
 **Query all vertices in the graph, limit to the first 5 vertices found**
+
 .. code-block:: python
 
   from pycayley import Graph
