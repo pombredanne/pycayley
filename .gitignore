@@ -1,0 +1,13 @@
+*.pyc
+*.pyo
+*.db
+*.log
+*.mo
+._*
+.idea
+*.*~
+dist/
+build/
+MANIFEST
+pycayley.egg-info/
+.htmlcoverage/
