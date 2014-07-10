@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+pycayley.py
+setup.py
+bottle.egg-info/PKG-INFO
+bottle.egg-info/SOURCES.txt
+bottle.egg-info/dependency_links.txt
+bottle.egg-info/requires.txt
+bottle.egg-info/top_level.txt

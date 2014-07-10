@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: bottle
+Version: 0.1-dev
+Summary: Simple python client for Cayley Graph Database.
+Home-page: http://github.com/canerbasaran/pycayley/
+Author: Caner Başaran
+Author-email: basaran.caner@gmail.com
+License: MIT
+Description: 
+        pycayley is a simple python client for Cayley Database.
+        
+        Homepage http://github.com/canerbasaran/pycayley
+        
+        Copyright (c) 2014, Caner Başaran.
+        License: MIT (see LICENSE for details)
+        
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3

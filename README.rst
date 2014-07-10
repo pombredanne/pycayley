@@ -4,9 +4,10 @@
 .. _Methods: https://github.com/google/cayley/blob/master/docs/HTTP.md
 
 ============================
-PyCayley: Simple Python Cayley Client
+pycayley: Simple Python Cayley Client
 ============================
-PyCayley is a simple Python_ client for Cayley_ Graph Database. It is distributed as a single file module and has only one dependency Requests_ other than the `Python Standard Library <http://docs.python.org/library/>`_.
+
+pycayley is a simple Python_ client for Cayley_ Graph Database. It is distributed as a single file module and has only one dependency Requests_ other than the `Python Standard Library <http://docs.python.org/library/>`_.
 
 Homepage and documentation: http://github.com/canerbasaran/pycayley
 
@@ -17,7 +18,7 @@ Example: "Hello World" in a bottle
 
 .. code-block:: python
 
-  from pycayley
+  from pycayley import CayleyDatabase
 
   c = CayleyDatabase("http://localhost:64210", "v1")
   c.qg("graph.Vertex().GetLimit(5)")
@@ -51,7 +52,7 @@ Download and Install
 
 .. __: https://github.com/canerbasaran/pycayley/raw/master/pycayley.py
 
-Install the latest stable release with ``pip install pycayley``, ``easy_install -U pycayley`` or download `pycayley.py`__ (unstable) into your project directory. There is only one dependency Requests_ other than the Python standard library. PyCayley runs with **Python 2.5+ and 3.x**.
+Install with ``sudo pip setup.py install`` or download `pycayley.py`__ (unstable) into your project directory. There is only one dependency Requests_ other than the Python standard library. PyCayley runs with **Python 2.5+ and 3.x**.
 
 
 License
