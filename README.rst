@@ -1,7 +1,9 @@
 .. _Cayley: http://github.com/google/cayley/
 .. _Python: http://python.org/
 .. _Requests: http://github.com/kennethreitz/requests
-.. _Methods: https://github.com/google/cayley/blob/master/docs/HTTP.md
+.. _Methods: http://github.com/google/cayley/blob/master/docs/HTTP.md
+
+.. image:: https://github.com/canerbasaran/pycayley/raw/master/pycayley.png?raw=true
 
 ============================
 pycayley: Simple Python Cayley Client
@@ -12,10 +14,11 @@ pycayley is a simple Python_ client for Cayley_ Graph Database. It is distribute
 Homepage and documentation: http://github.com/canerbasaran/pycayley
 
 
-Example: Query all vertices in the graph, limit to the first 5 vertices found
------------------------------------------------------------------------------
+Example
+-------
 ./cayley http --dbpath=30kmovies.nt
 
+**Query all vertices in the graph, limit to the first 5 vertices found**
 .. code-block:: python
 
   from pycayley import Graph

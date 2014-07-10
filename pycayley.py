@@ -20,7 +20,7 @@ def request(url, data):
     return requests.post(url, data=data).json()
 
 
-class Graph():
+class Graph(object):
     def __init__(self, url="http://localhost:64210", version="v1"):
         self.url = "%s/api/%s/" % (url, version)
 
