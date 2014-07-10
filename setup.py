@@ -12,7 +12,7 @@ if sys.version_info < (2, 5):
 
 import pycayley
 
-setup(name='bottle',
+setup(name='pycayley',
       version=pycayley.__version__,
       description='Simple python client for Cayley Graph Database.',
       long_description=pycayley.__doc__,
