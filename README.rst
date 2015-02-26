@@ -3,8 +3,6 @@
 .. _Requests: http://github.com/kennethreitz/requests
 .. _Methods: http://github.com/google/cayley/blob/master/docs/HTTP.md
 
-.. image:: https://github.com/canerbasaran/pycayley/raw/master/pycayley.png?raw=true
-
 ============================
 pycayley: Simple Python Cayley Client
 ============================
